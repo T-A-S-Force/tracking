@@ -1,79 +1,43 @@
 [
     {
         "uuid": "12345",
-        "Ordercode": "DMP3021SFVWQ",
-        "Request_Date": "02.09.22",
-        "Product_description": "Beispiel Text",
-        "Components": "Beispiel Text",
-        "Manufacturer": "Diodes",
-        "Series": "Beispiel Text",
-        "Order_date": "02.09.22",
-        "Quantity": 150000.0,
-        "Price_per_unit_EUR": 2030.0,
-        "Order_volume_EUR": 637.0,
-        "Price_per_unit_USD": 7.45,
-        "Order_volume_USD": 1117500.0,
-        "PO_Number": "12345",
-        "Remaining_days_until_ETA": "12345",
-        "ETA_at_BTV": "02.09.22",
-        "Kunde_ETA_at_BTV_2": "18.10.22",
-        "Parts_Secured": "18.10.22",
-        "Arrival_Date_at_Testhouse": "02.09.22",
-        "Test_Result": "Ja",
-        "Arrival_at_Zoll": "Nein",
-        "Arrival_at_BTV": "18.10.22",
-        "Storage_BTV": "Ja",
-        "Forwarding_to_Tier_1": "Ja",
-        "Tier_1": "Beispiel Text",
-        "Delivery": [
+        "po_number": "12345",
+        "tier_1": "Thyssen Krupp",
+        "product_description": "Lenkgetriebe",
+        "mpn": "TLE5309D E1211",
+        "manufacturer": "Infineon",
+        "quantity": 150000.0,
+        "price_per_unit_eur": 50.0,
+        "order_volume_eur": 7500000.0,
+        "price_per_unit_usd": 0.0,
+        "order_volume_usd": 0.0,
+        "broker": "",
+        "order_date": "02.02.23",
+        "parts_secured": "03.02.23",
+        "parts_secured_quantity": 150000.0,
+        "arrival_date_at_testhouse": "16.02.23",
+        "successful_test": 50000.0,
+        "failed_test": 100000.0,
+        "parts_arrived_in_eu": "02.03.23",
+        "parts_arrived_in_eu_quantity": 50000.0,
+        "eta_at_btv": "09.03.23",
+        "actual_eta_at_btv": [
             {
-                "Transportation_company": "DHL",
-                "Tracking_no": "4412565312",
-                "Actual_delivered_quantity": 50.0
-            },
-            {
-                "Transportation_company": "DHL",
-                "Tracking_no": "4412565312",
-                "Actual_delivered_quantity": 100.0
+                "date": "06.03.23",
+                "transportation_company": "DHL",
+                "tracking_link": "https://www.google.com",
+                "quantity": 100000.0
             }
         ],
-        "Comments": "Beispiel Text",
-        "Status": "Beispiel Text"
-    },
-    {
-        "uuid": "56789",
-        "Ordercode": "DMP3021SFVWQ",
-        "Request_Date": "04.09.22",
-        "Product_description": "Beispiel Text",
-        "Components": "Beispiel Text",
-        "Manufacturer": "Diodes",
-        "Series": "Beispiel Text",
-        "Order_date": "04.09.22",
-        "Quantity": 150000.0,
-        "Price_per_unit_EUR": 2030.0,
-        "Order_volume_EUR": 637.0,
-        "Price_per_unit_USD": 7.45,
-        "Order_volume_USD": 1117500.0,
-        "PO_Number": "12345",
-        "Remaining_days_until_ETA": "12345",
-        "ETA_at_BTV": "02.09.22",
-        "Kunde_ETA_at_BTV_2": "18.10.22",
-        "Parts_Secured": "18.10.22",
-        "Arrival_Date_at_Testhouse": "02.09.22",
-        "Test_Result": "Ja",
-        "Arrival_at_Zoll": "Nein",
-        "Arrival_at_BTV": "20.10.22",
-        "Storage_BTV": "Ja",
-        "Forwarding_to_Tier_1": "Ja",
-        "Tier_1": "Beispiel Text",
-        "Delivery": [
+        "eta_at_tier_1": "14.03.23",
+        "actual_eta_at_tier_1": [
             {
-                "Transportation_company": "DHL",
-                "Tracking_no": "4412565312",
-                "Actual_delivered_quantity": 150.0
+                "date": "17.03.23",
+                "transportation_company": "DHL",
+                "tracking_link": "https://www.google.com",
+                "quantity": 100000.0
             }
         ],
-        "Comments": "Beispiel Text",
-        "Status": "Beispiel Text"
+        "comments": "1. Lorem Impsum.\n2. Dolor sit amet.\n3. Conseteur.\n4. Sadipscing elitr."
     }
 ]
