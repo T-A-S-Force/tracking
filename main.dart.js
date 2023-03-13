@@ -314,7 +314,7 @@ return new A.IM(s,b.i("IM<0>"))},
 S(a,b,c){var s,r=t.t,q=A.a([],r),p=A.a([],r)
 for(s=0;s<c.length;s+=2){q.push(c[s])
 p.push(c[s+1])}return new A.km(a,b,q,p)},
-aos(){var s=new A.qf(B.e4,B.aA,B.c5,B.er)
+aos(){var s=new A.qf(B.e4,B.aA,B.c5,B.d1)
 s.iF(null,t.e)
 return s},
 ask(a,b){var s,r,q=new A.qg(b)
@@ -23804,8 +23804,8 @@ A.M(n,"drawImageRectCubic",[m.gad(),A.cZ(b),A.cZ(c),0.3333333333333333,0.3333333
 m=m.gad()
 s=A.cZ(b)
 r=A.cZ(c)
-q=o===B.er?$.bf.aE().FilterMode.Nearest:$.bf.aE().FilterMode.Linear
-p=o===B.d1?$.bf.aE().MipmapMode.Linear:$.bf.aE().MipmapMode.None
+q=o===B.d1?$.bf.aE().FilterMode.Nearest:$.bf.aE().FilterMode.Linear
+p=o===B.er?$.bf.aE().MipmapMode.Linear:$.bf.aE().MipmapMode.None
 A.M(n,"drawImageRectOptions",[m,s,r,q,p,d.gad()])}},
 iZ(a,b,c){A.M(this.a,"drawLine",[a.a,a.b,b.a,b.b,c.gad()])},
 j_(a,b){this.a.drawOval(A.cZ(a),b.gad())},
@@ -23949,8 +23949,8 @@ A.M(a,"drawImageRectCubic",[l.gad(),A.cZ(n),A.cZ(m),0.3333333333333333,0.3333333
 l=l.gad()
 n=A.cZ(n)
 m=A.cZ(m)
-s=o===B.er?$.bf.aE().FilterMode.Nearest:$.bf.aE().FilterMode.Linear
-r=o===B.d1?$.bf.aE().MipmapMode.Linear:$.bf.aE().MipmapMode.None
+s=o===B.d1?$.bf.aE().FilterMode.Nearest:$.bf.aE().FilterMode.Linear
+r=o===B.er?$.bf.aE().MipmapMode.Linear:$.bf.aE().MipmapMode.None
 A.M(a,"drawImageRectOptions",[l,n,m,s,r,p.gad()])}},
 l(){this.a.l()}}
 A.FI.prototype={
@@ -81092,9 +81092,9 @@ B.hz=new A.k3(!1,!1,!1,!0)
 B.nF=new A.k3(!0,!1,!1,!1)
 B.nG=new A.k3(!0,!1,!1,!0)
 B.Bn=new A.wO(null)
-B.er=new A.lB(0,"none")
+B.d1=new A.lB(0,"none")
 B.Bo=new A.lB(1,"low")
-B.d1=new A.lB(2,"medium")
+B.er=new A.lB(2,"medium")
 B.es=new A.lB(3,"high")
 B.A=new A.N(0,0)
 B.Bp=new A.HY(B.A,B.A)
@@ -81166,7 +81166,7 @@ B.C5=new A.o8(1,"repeatX")
 B.C6=new A.o8(2,"repeatY")
 B.d2=new A.o8(3,"noRepeat")
 B.xS=new A.q1("assets/logo/logo-with-text.png",null,null)
-B.C7=new A.qX(B.xS,null,null,B.d1,null)
+B.C7=new A.qX(B.xS,null,null,B.er,null)
 B.V=A.a(s([]),t.oU)
 B.C8=new A.k7("\ufffc",null,null,!0,!0,B.V)
 B.Cb=new A.fE(0,0.1,B.ah)
@@ -83365,7 +83365,7 @@ s($,"aPC","ao4",()=>A.a([A.ac(A.cf(A.a7()),"Clear"),A.ac(A.cf(A.a7()),"Src"),A.a
 s($,"aPN","aAb",()=>A.a([A.ac(A.aor(A.a7()),"Miter"),A.ac(A.aor(A.a7()),"Round"),A.ac(A.aor(A.a7()),"Bevel")],t.J))
 s($,"aPT","aAg",()=>A.a([A.ac(A.Xa(A.a7()),"Clamp"),A.ac(A.Xa(A.a7()),"Repeat"),A.ac(A.Xa(A.a7()),"Mirror"),A.ac(A.Xa(A.a7()),"Decal")],t.J))
 s($,"aOO","azx",()=>{var q=t.e
-return A.as([B.er,q.a({filter:A.aFy(A.aoo(A.a7())),mipmap:A.auz(A.aop(A.a7()))}),B.Bo,q.a({filter:A.auy(A.aoo(A.a7())),mipmap:A.auz(A.aop(A.a7()))}),B.d1,q.a({filter:A.auy(A.aoo(A.a7())),mipmap:A.aFz(A.aop(A.a7()))}),B.es,q.a({B:0.3333333333333333,C:0.3333333333333333})],A.ae("lB"),q)})
+return A.as([B.d1,q.a({filter:A.aFy(A.aoo(A.a7())),mipmap:A.auz(A.aop(A.a7()))}),B.Bo,q.a({filter:A.auy(A.aoo(A.a7())),mipmap:A.auz(A.aop(A.a7()))}),B.er,q.a({filter:A.auy(A.aoo(A.a7())),mipmap:A.aFz(A.aop(A.a7()))}),B.es,q.a({B:0.3333333333333333,C:0.3333333333333333})],A.ae("lB"),q)})
 s($,"aOW","azE",()=>{var q=A.Jy(2)
 q[0]=0
 q[1]=1
