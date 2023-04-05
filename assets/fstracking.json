@@ -1,0 +1,41 @@
+[
+    {
+        "uuid": "378",
+        "po_number": "1051503389",
+        "tier_1": "Bosch",
+        "product_description": "Starterbatterie 48V Powerpack Gen2",
+        "mpn": "TJA1052IT/5Y",
+        "manufacturer": "NXP",
+        "quantity": 15000.0,
+        "price_per_unit_eur": 0.0,
+        "order_volume_eur": 0.0,
+        "price_per_unit_usd": 18.9,
+        "order_volume_usd": 283500.0,
+        "broker": "Velocity",
+        "eta_at_btv": "2023-03-23",
+        "eta_at_tier_1": null,
+        "tracking": [
+            {
+                "order_date": "2022-06-28",
+                "parts_secured": "2022-06-28",
+                "parts_secured_quantity": 15000.0,
+                "arrival_date_at_testhouse": "2022-07-05",
+                "successful_test": 15000.0,
+                "failed_test": 0.0,
+                "parts_arrived_in_eu": "2023-03-17",
+                "parts_arrived_in_eu_quantity": 15000.0,
+                "actual_arrival_at_btv": "2023-03-23",
+                "transportation_company_to_btv": "FedEx",
+                "tracking_link_to_btv": "https://www.fedex.com/fedextrack/?trknbr=396071707755&trkqual=2460026000~396071707755~FX",
+                "actual_delivered_quantity_to_btv": 15000.0,
+                "actual_arrival_at_tier_1": null,
+                "transportation_company_to_tier_1": "",
+                "tracking_link_to_tier_1": "",
+                "actual_delivered_quantity_to_tier_1": 0.0
+            }
+        ],
+        "comments": "04.04.2023: Die Ware wurde von Bosch abgelehnt und die Ware muss leider bis auf Weiteres eingelagert werden bei btv. Info. kam von Hr. Klauser vom 24.03.2023.",
+        "fully_delivered": "",
+        "status": ""
+    }
+]
